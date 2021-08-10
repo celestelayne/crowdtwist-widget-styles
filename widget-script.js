@@ -1,5 +1,12 @@
 console.log("this works");
 
+const selectHeaderText = () => {
+  console.log("selecting");
+
+  let questionText = document.querySelectorAll(".question-text");
+  console.log(questionText.length, questionText);
+};
+
 const reloadWidgets = () => {
   if (window.CrowdTwist) return;
 
@@ -10,4 +17,6 @@ const reloadWidgets = () => {
   }
 
   window.CrowdTwist.loadWidgets();
+
+  selectHeaderText();
 };
