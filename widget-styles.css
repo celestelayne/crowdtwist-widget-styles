@@ -2,6 +2,22 @@ body {
   background-color: red;
 }
 
-div#survey-v3 {
-  background-color: lemonchiffon;
+.radio-item {
+  display: none;
+}
+
+#survey-v3 .question-container .question-text {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 30px;
+  font-family: "Domaine Display", serif;
+  line-height: 20px;
+}
+
+li.answer-option.ng-scope {
+  border: 1px solid #006660;
+  border-radius: 10px;
+  background: #ffffff;
+  box-sizing: border-box;
+  margin: 24px;
 }
