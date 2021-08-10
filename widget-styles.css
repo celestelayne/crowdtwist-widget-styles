@@ -2,6 +2,10 @@ body {
   background-color: red;
 }
 
-div#activity-list-v2 {
+/* div#activity-list-v2 {
   background-color: blue;
+} */
+
+.widget {
+  background-color: lemonchiffon;
 }
